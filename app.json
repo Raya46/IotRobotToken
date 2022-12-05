@@ -4,10 +4,10 @@
     "slug": "RokenRealease",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/img/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/img/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/img/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.rfael.RokenRealease"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cd055dd4-caac-49b1-a9b4-80532fb9e0f5"
+      }
     }
   }
 }
