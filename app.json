@@ -1,13 +1,13 @@
 {
   "expo": {
     "name": "RokenRealease",
-    "slug": "RokenRealease",
+    "slug": "iotrobottoken",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/img/icon.png",
+    "icon": "./assets/img/deaAF.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/img/icon.png",
+      "image": "./assets/img/deaAF.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,18 +22,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/img/icon.png",
+        "foregroundImage": "./assets/img/deaAF.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.rfael.RokenRealease"
+      "package": "com.example.RokenRealease"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "cd055dd4-caac-49b1-a9b4-80532fb9e0f5"
+        "projectId": "aab03217-b4e4-4464-b5a1-da12d4f3319d"
       }
-    }
+    },
+    "owner": "ray4"
   }
 }
